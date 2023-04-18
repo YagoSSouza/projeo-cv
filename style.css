@@ -1,0 +1,50 @@
+.name{
+    position: relative;
+    padding-left: 20px;
+    right: 905px;
+    color: #DDDEDA;
+    
+}
+.cabeca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #4e0000;
+    border: 3px solid #1A1C22;
+    border-bottom: 10px solid #1A1C22;
+    width: 1440px;
+    height: 80px;
+    padding-right:20px;
+    
+}
+
+.cabeca > a{
+    color: #DDDEDA;
+    text-decoration: none;
+    /* margin de 30px entre as ancoras "Sobre, Skills, Contatos e Download CV"*/
+    margin-right: 30px;
+
+    
+}
+/*propriedades do botão*/
+.btn{
+    display: inline-block;
+    background-color: #020004;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-radius: 5px;
+    border: 2px solid #1A1C22;
+    box-shadow: 4px 3px 0px #020004;
+    transition: transform 100ms linear;
+}
+/*efeito quando passar o mouse por cima do botão*/
+.btn:hover{
+    border: 0.5px solid #9E0000;
+    box-shadow: 8px 6px 8px #9E0000;
+    transform: scale(1.15);
+}
+
