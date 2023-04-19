@@ -27,6 +27,13 @@
 
     
 }
+main{
+    background-color: #020004;
+    width: 1466px;
+    height: 950px;
+}
+
+
 /*propriedades do botão*/
 .btn{
     display: inline-block;
@@ -47,4 +54,5 @@
     box-shadow: 8px 6px 8px #9E0000;
     transform: scale(1.15);
 }
+
 
